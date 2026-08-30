@@ -116,6 +116,7 @@ public/                Iconos y tarjeta social
 - [Seguridad](docs/SECURITY.md)
 - [Guía de contenido y portafolio](docs/CONTENT-GUIDE.md)
 - [Despliegue y HTTPS](docs/DEPLOYMENT.md)
+- [Evidencia de validación](docs/VALIDATION.md)
 - [Política de reporte de vulnerabilidades](SECURITY.md)
 - [Cómo contribuir](CONTRIBUTING.md)
 
