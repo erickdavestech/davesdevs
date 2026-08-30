@@ -15,7 +15,7 @@
 
 ## Estado
 
-- URL de producción: se añadirá al completar el primer despliegue.
+- Producción: [davesdevs.aimond.chatgpt.site](https://davesdevs.aimond.chatgpt.site)
 - Código fuente: `https://github.com/erickdavestech/davesdevs`
 - Licencia: todos los derechos reservados.
 
@@ -86,7 +86,7 @@ La aplicación estará disponible en `http://localhost:3000`.
 `NEXT_PUBLIC_SITE_URL` define el origen público usado para canonical, Open Graph, sitemap y datos estructurados.
 
 ```text
-NEXT_PUBLIC_SITE_URL=https://example.com
+NEXT_PUBLIC_SITE_URL=https://davesdevs.aimond.chatgpt.site
 ```
 
 Esta variable es pública y no debe contener secretos. El sitio no necesita claves para funcionar.
