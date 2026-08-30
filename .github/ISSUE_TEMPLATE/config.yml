@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar una vulnerabilidad
+    url: https://github.com/erickdavestech/davesdevs/security/advisories/new
+    about: Utiliza un aviso privado para problemas de seguridad.
+  - name: Consulta comercial
+    url: https://github.com/erickdavestech
+    about: Abre el perfil de ErickDavesTech para iniciar una conversación.
