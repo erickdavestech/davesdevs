@@ -15,6 +15,7 @@ npm run check
 npm run build
 npm run validate:build
 npm audit --audit-level=high
+npm run audit:signatures
 ```
 
 La compilación de release debe recibir `NEXT_PUBLIC_SITE_URL` con el origen final, sin barra final ni rutas adicionales.

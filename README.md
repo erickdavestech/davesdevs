@@ -68,18 +68,19 @@ La aplicación estará disponible en `http://localhost:3000`.
 
 ## Comandos
 
-| Comando                  | Función                                               |
-| ------------------------ | ----------------------------------------------------- |
-| `npm run dev`            | Inicia el entorno local                               |
-| `npm run format`         | Formatea los archivos admitidos                       |
-| `npm run format:check`   | Comprueba el formato sin modificar archivos           |
-| `npm run lint`           | Ejecuta reglas de código, React, Next y accesibilidad |
-| `npm run typecheck`      | Verifica TypeScript sin generar salida                |
-| `npm run check`          | Ejecuta formato, lint y TypeScript                    |
-| `npm run build`          | Genera la salida de producción                        |
-| `npm run validate:build` | Verifica la integridad de la salida generada          |
-| `npm run audit`          | Revisa vulnerabilidades de dependencias               |
-| `npm run start`          | Sirve localmente la salida Worker compilada           |
+| Comando                    | Función                                               |
+| -------------------------- | ----------------------------------------------------- |
+| `npm run dev`              | Inicia el entorno local                               |
+| `npm run format`           | Formatea los archivos admitidos                       |
+| `npm run format:check`     | Comprueba el formato sin modificar archivos           |
+| `npm run lint`             | Ejecuta reglas de código, React, Next y accesibilidad |
+| `npm run typecheck`        | Verifica TypeScript sin generar salida                |
+| `npm run check`            | Ejecuta formato, lint y TypeScript                    |
+| `npm run build`            | Genera la salida de producción                        |
+| `npm run validate:build`   | Verifica la integridad de la salida generada          |
+| `npm run audit`            | Revisa vulnerabilidades de dependencias               |
+| `npm run audit:signatures` | Verifica firmas y attestations del registro           |
+| `npm run start`            | Sirve localmente la salida Worker compilada           |
 
 ## Configuración
 

@@ -23,6 +23,7 @@ npm run check
 npm run build
 npm run validate:build
 npm audit --audit-level=high
+npm run audit:signatures
 ```
 
 ## Commits

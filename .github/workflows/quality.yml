@@ -40,4 +40,6 @@ jobs:
       - name: Validate production output
         run: npm run validate:build
       - name: Audit dependency chain
-        run: npm audit --audit-level=high
+        run: npm run audit
+      - name: Verify registry signatures
+        run: npm run audit:signatures

@@ -30,6 +30,7 @@ La política CSP limita recursos al mismo origen, bloquea objetos, marcos, formu
 ### Dependencias
 
 - Versiones exactas en `package.json` y `package-lock.json`.
+- Lista exacta de dependencias autorizadas a ejecutar scripts de instalación, con rechazo de cualquier script nuevo no revisado.
 - Auditoría local y en CI.
 - Dependabot semanal.
 - CodeQL para JavaScript y TypeScript.
@@ -76,9 +77,10 @@ Todo contenido procedente de CMS o API debe validarse. No se deben interpolar HT
 3. Ejecutar `npm run build`.
 4. Ejecutar `npm run validate:build`.
 5. Ejecutar `npm audit --audit-level=high`.
-6. Verificar rutas, metadata y recursos generados.
-7. Desplegar el commit exacto validado.
-8. Comprobar certificado, redirección, cabeceras y contenido mixto en la URL pública.
-9. Revisar que canonical, Open Graph, robots y sitemap usen el dominio final.
+6. Ejecutar `npm run audit:signatures`.
+7. Verificar rutas, metadata y recursos generados.
+8. Desplegar el commit exacto validado.
+9. Comprobar certificado, redirección, cabeceras y contenido mixto en la URL pública.
+10. Revisar que canonical, Open Graph, robots y sitemap usen el dominio final.
 
 La divulgación responsable se gestiona mediante [SECURITY.md](../SECURITY.md).
